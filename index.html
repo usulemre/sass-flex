@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="header">
+        <img src="img/logo.png" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search Hotels"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__not">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__not">13</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/28bcc824-02b2-42be-ac05-f0e85d0c6f5f.jpg"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__bilgi">Emre</span>
+          </div>
+        </nav>
+      </div>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="sidebar-nav">
+            <li class="sidebar-nav__item sidebar-nav__item--active">
+              <a href="#" class="sidebar-nav__link">
+                <svg class="sidebar-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="sidebar-nav__item">
+              <a href="#" class="sidebar-nav__link">
+                <svg class="sidebar-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span>Uçuşlar</span>
+              </a>
+            </li>
+            <li class="sidebar-nav__item">
+              <a href="#" class="sidebar-nav__link">
+                <svg class="sidebar-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Araçlar</span>
+              </a>
+            </li>
+            <li class="sidebar-nav__item">
+              <a href="#" class="sidebar-nav__link">
+                <svg class="sidebar-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Turlar</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal-text">&copy; 2021 Geliştirici Emre Usul</div>
+        </nav>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img src="img/hotel-1.jpg" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/hotel-2.jpg" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/hotel-3.jpg" class="gallery__photo" />
+            </figure>
+          </div>
+          <div class="overwiew">
+            <h1 class="overwiew__heading">Usullar Otel</h1>
+            <div class="overwiew__stars">
+              <svg class="overwiew__start">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overwiew__start">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overwiew__start">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overwiew__start">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overwiew__start">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overwiew__location">
+              <svg class="overwiew__icon-start">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Türkiye,Ankara</button>
+            </div>
+            <div class="overwiew__rating">
+              <div class="overwiew__rating-average">8.6</div>
+              <div class="overwiew__rating-count">429 oylar</div>
+            </div>
+          </div>
+          <div class="detalist">
+            <div class="descereption">
+              <p class="paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class="paragraf">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <ul class="list">
+                <li class="list__item">Lorem</li>
+                <li class="list__item">Lorem</li>
+                <li class="list__item">Lorem</li>
+                <li class="list__item">Lorem</li>
+                <li class="list__item">Lorem</li>
+                <li class="list__item">Lorem</li>
+                <li class="list__item">Lorem</li>
+                <li class="list__item">Lorem</li>
+              </ul>
+              <div class="recomend">
+                <p class="recomend__count">emre ve 3 arkadaşı</p>
+                <div class="recomend__friends">
+                  <img src="img/user-1.jpg" class="recomend__photo" />
+                  <img src="img/user-2.jpg" class="recomend__photo" />
+                  <img src="img/user-3.jpg" class="recomend__photo" />
+                  <img src="img/user-4.jpg" class="recomend__photo" />
+                </div>
+              </div>
+            </div>
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                  architecto voluptate delectus, inventore iure aliquid aliquam.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="img/user-1.jpg" class="review__photo" />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Emre Usul</p>
+                    <p class="review__user-date">ocak 1,2021</p>
+                  </div>
+                  <div class="review__rating">8.3</div>
+                </figcaption>
+              </figure>
+              <figure class="review">
+                <blockquote class="review__text">
+                  Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                  architecto voluptate delectus, inventore iure aliquid aliquam.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="img/user-4.jpg" class="review__photo" />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Emre Usul</p>
+                    <p class="review__user-date">ocak 1,2021</p>
+                  </div>
+                  <div class="review__rating">9.2</div>
+                </figcaption>
+              </figure>
+              <button class="btn-inline">
+                Türkiye,Ankara<span>&rarr;</span>
+              </button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book">Turlarınızı burdan arayabilirsiniz</h2>
+            <button class="btn">
+              <span class="btn__acık">Tıklayınız</span>
+              <span class="btn__gizli">Göz atın</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
